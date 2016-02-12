@@ -26,7 +26,7 @@ from dragonfly import (Grammar, CompoundRule, Config, Section, Item)
 
 config = Config("lock screen")
 config.lang             = Section("Language section")
-config.lang.lock_screen = Item("lock screen now now",
+config.lang.lock_screen = Item("lock computer",
                                doc="Command to lock the screen;"
                                    " also puts the microphone to sleep.")
 config.load()
